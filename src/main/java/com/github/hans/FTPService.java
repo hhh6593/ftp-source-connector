@@ -27,9 +27,10 @@ public class FTPService {
     private long lastPollTime = 0;
     private boolean isInitialLoad = true;
     public FTPService(Map<String, String> props, OffsetStorageReader offsetStorageReader) {
-        this.ftpServer = props.get("ftp.server");
-        this.userName = props.get("user.name");
-        this.password = props.get("password");
+        FTPSourceConfig configProps = new FTPSourceConfig(props);
+        this.ftpServer = configProps.getFtpServer();
+        this.userName = configProps.getUserName();
+        this.password = configProps.getPassword();
         this.ftpClient = new FTPClient();
         this.fileTimestamps = new HashMap<>();
         this.offsetStorageReader = offsetStorageReader;

@@ -5,25 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8d39a0da-10ba-488d-9c5a-dfb20d9c3f6b" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceConnector.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceTask.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FileProcessStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/github/hans/FTPSourceTask.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +88,7 @@
       <option name="presentableId" value="Default" />
       <updated>1703687178715</updated>
       <workItem from="1703687179786" duration="3710000" />
-      <workItem from="1703761511371" duration="30239000" />
+      <workItem from="1703761511371" duration="36813000" />
     </task>
     <servers />
   </component>

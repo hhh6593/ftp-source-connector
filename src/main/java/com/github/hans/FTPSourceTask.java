@@ -29,7 +29,8 @@ public class FTPSourceTask extends SourceTask {
 
     @Override
     public void start(Map<String, String> props) {
-        this.topic = props.get("topic");
+        FTPSourceConfig configProps = new FTPSourceConfig(props);
+        this.topic = configProps.getKafkaTopic();
         OffsetStorageReader offsetStorageReader = this.context.offsetStorageReader();
         ftpService = new FTPService(props, offsetStorageReader);
 
